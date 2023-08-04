@@ -1,0 +1,220 @@
+* {
+    background-color: #FAFAFA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 16px;
+}
+.box-1{
+    display: none;
+}
+.main-box {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.box-2 {
+    width: 350px;
+}
+.square-1 {
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+}
+.logo {
+    margin-top: 36px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.entry-form input {
+    width: 270px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA
+}
+.field {
+    margin-bottom: 6px;
+}
+.entry-form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+.entry-form button {
+    width: 270px;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background: #0095F6;
+    border: 4px solid #0095F6;
+    color: #FAFAFA;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.midle-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midle-line .line {
+    display: flex;
+    flex-direction: row;
+    width: 107.25px;
+    height: 1px;
+    background-color: #DBDBDB;
+    border: 1px solid #DBDBDB;
+}
+.midle-line p {
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #8E8E8E;
+}
+
+.facebook-entry button {
+    height: 20px;
+    width: 348px;
+    padding: 0 51.238px 1px 51.438px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    color: #385185;
+    font-weight: bold;
+    background-color: #FAFAFA;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+.facebook-entry .a1 {
+    color: #00376B;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+}
+.facebook-entry .p1 {
+    margin-top: 22px;
+    margin-bottom: 79.5px;
+    text-align: center;
+}
+.new-acc {
+    text-align: center;
+}
+.new-acc .a2 {
+    color: #0095F6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+}
+.facebook-entry .p2 {
+    color: #262626;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 57.5px;
+}
+
+.apps p {
+    margin-top: 11px;
+    margin-bottom: 21px;
+    color: #262626;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+}
+.apps .pstore {
+    margin-right: 8px;
+}
+.apps .apps-images {
+    margin-bottom: 46.02px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    align-items: flex-start;
+    padding: 2px 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: auto 17px;
+}
+.container div {
+    width: 100%;
+    justify-content: center;
+}
+.container p {
+    margin: 0;
+    color: #8E8E8E;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+@media (min-width: 875px) {
+    .main-box {
+        display: flex;
+        justify-content: center;
+    }
+    .box-1 {
+        display: inline-flex;
+        padding: 8px 13px 35px 7px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-1 img {
+        padding-top: 30px;
+        width: 360px;
+        height: 599px;
+        margin-right: 20px;
+    }
+    .box-2 {
+        padding-top: 22px;
+        padding-bottom: 0;
+        width: 350px;        
+    }
+    .square-1 {
+        border: 1px solid #DBDBDB;
+        border-radius: 1px;
+        margin-bottom: 8px;
+    }
+    .new-acc {
+        border: 1px solid #DBDBDB;
+        border-radius: 1px;
+    }
+    .facebook-entry .p1 {
+        margin-top: 22px;
+        margin-bottom: 45px;
+    }
+    .facebook-entry .p2 {
+        margin-bottom: 33px;
+    }
+    .entry-form button {
+        border-radius: 7px;
+    }
+    footer {
+        padding-bottom: 0;
+    }
+}
